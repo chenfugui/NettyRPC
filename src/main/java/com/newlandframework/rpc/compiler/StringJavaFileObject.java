@@ -15,6 +15,10 @@
  */
 package com.newlandframework.rpc.compiler;
 
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.ImportResource;
+import org.springframework.context.annotation.PropertySource;
+
 import javax.tools.SimpleJavaFileObject;
 import java.io.IOException;
 import java.net.URI;
